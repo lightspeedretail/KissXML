@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Core' do |ss|
     ss.source_files = 'KissXML/*.{h,m}', 'KissXML/Categories/*.{h,m}', 'KissXML/Private/*.h'
-    ss.private_header_files = 'KissXML/Private/**/*.h'
+    ss.private_header_files = 'KissXML/DDXMLPrivate.h'
     ss.library      = 'xml2'
     ss.xcconfig     = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2'}
   end

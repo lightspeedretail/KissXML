@@ -156,7 +156,7 @@
 				0DCD8DE11E54A3C6001D9832 /* DDXMLNode.h */,
 				0DCD8DE21E54A3C6001D9832 /* DDXMLNode.m */,
 				0DCD8DE31E54A3C6001D9832 /* KissXML.h */,
-				0DCD8DE41E54A3C6001D9832 /* Private */,
+				0DCD8DE51E54A3C6001D9832 /* DDXMLPrivate.h */,
 				0DCD8DCE1E54A3A3001D9832 /* Info.plist */,
 			);
 			path = KissXML;
@@ -180,15 +180,6 @@
 			);
 			name = Categories;
 			path = KissXML/Categories;
-			sourceTree = SOURCE_ROOT;
-		};
-		0DCD8DE41E54A3C6001D9832 /* Private */ = {
-			isa = PBXGroup;
-			children = (
-				0DCD8DE51E54A3C6001D9832 /* DDXMLPrivate.h */,
-			);
-			name = Private;
-			path = KissXML/Private;
 			sourceTree = SOURCE_ROOT;
 		};
 		0DCD8DF41E54A3E8001D9832 /* Frameworks */ = {

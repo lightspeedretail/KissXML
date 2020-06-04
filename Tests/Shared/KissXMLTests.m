@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import <KissXML/KissXML.h>
+@import KissXML;
 
 @interface KissXMLTests : XCTestCase
 @end
